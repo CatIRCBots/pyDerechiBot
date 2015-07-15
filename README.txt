@@ -1,4 +1,4 @@
-﻿Installation &c.
+Installation.
 
 1) Run ./phenny - this creates a default config file
 2) Edit ~/.phenny/default.py
