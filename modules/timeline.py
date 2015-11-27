@@ -12,7 +12,7 @@ import pickle
 def timeline(phenny, input):
     user = input.group(2)
     paralaapi = '@' + user
-    api = twitter.Api(consumer_key='ea4kkFgHkartFAh6MSwhoEQl6',consumer_secret='8aFjAW8LvCnVzaUAPl5xfOJ4BXVDGD048D2EeNFtS4tkzBgtA4',access_token_key='149726972-ZrnsxJnoBfaEzy8yeX5dQbc4M8lwTPrJEZwKDcV8',access_token_secret='qpMal361flort46lvcNdZ2GRekeA4qQ61bpQK1qdw9qOj')
+    api = twitter.Api(consumer_key='aaaaaaaaaaa',consumer_secret='aa',access_token_key='aa')
     statuses = api.GetUserTimeline(screen_name=user, count=1)
     ad = [s.text for s in statuses]
     prnt = ad[0]
